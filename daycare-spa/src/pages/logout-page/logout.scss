@@ -1,0 +1,14 @@
+@import "../../mixins";
+
+.default {
+  @include main-style();
+
+  h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5c5858;
+    font-size: 400%;
+  }
+}

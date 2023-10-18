@@ -1,0 +1,44 @@
+@import "..//../mixins";
+
+.default {
+  @include main-style();
+
+  h1 {
+    color: #5c5858;
+    font-size: 40px;
+  }
+
+  .button-logout {
+    background-color: #dbfc85;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font: large;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 150px;
+    right: 60%;
+    bottom: 35%;
+    position: absolute;
+  }
+}
+
+.button-change {
+  background-color: #dbfc85;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  font: large;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 150px;
+  right: 30%;
+  bottom: 35%;
+  position: absolute;
+}
